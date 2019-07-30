@@ -12,3 +12,10 @@ syntax on
 
 " Set encoding to utf-8
 set encoding=utf-8
+
+" Display line number
+set number
+
+" Set tab to 4 spaces 
+set tabstop=4
+set expandtab
