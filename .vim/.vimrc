@@ -1,8 +1,8 @@
 " Remap <ESC> to jk
-""inoremap jk <ESC>
+inoremap jk <ESC>
 
 " Remap leader key '\' to '<Space>'
-""let mapleader = "<Space>"
+let mapleader = " "
 
 " Enable file type detection, plugin loading and indent file loading
 filetype plugin indent on
