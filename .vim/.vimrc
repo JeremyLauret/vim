@@ -16,6 +16,19 @@ set encoding=utf-8
 " Display line number
 set number
 
-" Set tab to 4 spaces 
-set tabstop=4
+" Set tab to 8 spaces
+set tabstop=8
 set expandtab
+
+" Set auto-indent to 4 spaces
+set shiftwidth=2
+
+" Show completion list when using :e + <tab>
+set wildmenu
+set wildmode=longest:full,full
+
+" Set tags option to look for a 'tags~' file in parent directories
+set tags=./.tags~;/
+
+" Add '<' and '>' to the list of matching pairs (useful for jumps with the % command)
+set mps+=<:>
